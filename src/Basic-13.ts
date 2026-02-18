@@ -6,3 +6,13 @@ enum Direction {
 }
 
 let dir: Direction = Direction.Right;
+
+// String enum
+
+enum Stat {
+  Pending = "PENDING",
+  Approved = "APPROVED",
+  Rejected = "REJECTED",
+}
+
+let St: Stat = Stat.Approved;

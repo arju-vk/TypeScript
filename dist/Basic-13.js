@@ -7,3 +7,11 @@ var Direction;
     Direction[Direction["Right"] = 4] = "Right";
 })(Direction || (Direction = {}));
 let dir = Direction.Right;
+// String enum
+var Stat;
+(function (Stat) {
+    Stat["Pending"] = "PENDING";
+    Stat["Approved"] = "APPROVED";
+    Stat["Rejected"] = "REJECTED";
+})(Stat || (Stat = {}));
+let St = Stat.Approved;
