@@ -18,5 +18,7 @@ let pages = {
 function createUser() {
     return {
         id: 1,
+        name: "Arjun",
+        email: "avk@gmail.com",
     };
 }
