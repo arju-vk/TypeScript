@@ -15,3 +15,10 @@ var Stat;
     Stat["Rejected"] = "REJECTED";
 })(Stat || (Stat = {}));
 let St = Stat.Approved;
+function handleResponse(status) {
+    if (status === 200 /* HttpStatus.OK */) {
+        console.log("Success!");
+    }
+    else
+        console.log("Failed");
+}
