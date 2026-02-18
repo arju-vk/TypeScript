@@ -59,3 +59,4 @@ function createUser() {
     email: "avk@gmail.com",
   };
 }
+type UserType = ReturnType<typeof createUser>;
